@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>c3-9 Homework</title>
+</head>
+<body>
+	<form >
+		<!-- Запрос города пользователя или вывод информации о нем -->
+		<p id="askingCity">Введите ваш город: <input id="userCity" maxlength="25" size="40" value="bbbb"></p>
+		<p id="yourCity" hidden="false">Ваш город - </p>
+		<p><input id="changeCity" type="submit" value="Сохранить город"></p>
+
+		<!-- Фиксация предпочтений пользователя -->
+		<p>Отметьте свои предпочтения.</p>
+		<p>Будьте внимательны. После нажатия на кнопку "Сохранить" изменить выбор уже нельзя.</p>
+		<p><input id="dontCallMe" type="checkbox" name="a"> не звонить мне</p>
+		<p><input id="readIt" type="checkbox" name="a"> я прочитал и согласен с правилами пользования сервисом</p>
+		<p><input id="dontChoose" type="checkbox" name="a"> я не выбираю эту галочку</p>
+		<p><input id="freedom" type="checkbox" name="a"> я подтверждаю, что свобода в интернете — это возможность выбирать галочки</p>
+		<p><input id="years12" type="checkbox" name="a"> мне больше 12 лет</p>
+		<p><input id="wellDone" type="checkbox" name="a" checked> это задание выполнено правильно</p>
+		<p><input id="saveIt" type="submit" value="Сохранить"></p>
+	</form>
+	<script src="c3-9.js"></script>
+</body>
+</html>
