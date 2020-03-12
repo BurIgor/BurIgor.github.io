@@ -5,7 +5,7 @@
 	<title>c3-9 Homework</title>
 </head>
 <body>
-	<form >
+	<form class="exercise">
 		<!-- Запрос города пользователя или вывод информации о нем -->
 		<p id="askingCity">Введите ваш город: <input id="userCity" maxlength="25" size="40" value="bbbb"></p>
 		<p id="yourCity" hidden="false">Ваш город - </p>
@@ -21,6 +21,10 @@
 		<p><input id="years12" type="checkbox" name="a"> мне больше 12 лет</p>
 		<p><input id="wellDone" type="checkbox" name="a" checked> это задание выполнено правильно</p>
 		<p><input id="saveIt" type="submit" value="Сохранить"></p>
+	</form>
+
+	<form class="debagging" >
+		<input id="clearCookies" type="submit" hidden="hidden" value="Сбросить cookies (для экспериментов)">
 	</form>
 	<script src="c3-9.js"></script>
 </body>
